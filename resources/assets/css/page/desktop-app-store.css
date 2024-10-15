@@ -1,0 +1,68 @@
+.appstore-badge {
+  border-radius: 5px;
+  height: 100%;
+  -webkit-margin-end: 3px;
+  margin-inline-end: 3px;
+  vertical-align: middle;
+}
+
+.availability-images {
+  height: 40px;
+}
+
+.availability-note {
+  font-family: "HPSimplified123", sans-serif;
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+
+.app-store-container,
+.availability-note-container {
+  margin-left: 70px;
+}
+
+.availability-note-container span {
+  display: block;
+}
+
+body {
+  min-width: 608px !important;
+  overflow-x: auto !important;
+}
+
+.btn {
+  width: 233px;
+}
+
+.connection-copy-container {
+  width: 65%;
+}
+
+.content-container {
+  height: 450px;
+}
+
+#country-selector-container {
+  margin-top: 40px;
+}
+
+.page-header {
+  font-size: 54px;
+  margin: 0 0 10px;
+}
+
+.availability-note-container {
+  margin-bottom: 30px;
+}
+
+.support-note {
+  font-size: 26px;
+}
+
+.top-content a {
+  padding-left: 70px;
+}
+
+.top-content ol > li {
+  padding-left: 30px;
+}

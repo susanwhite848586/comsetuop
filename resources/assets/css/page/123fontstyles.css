@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "HPSimplified123";
+  font-style: normal;
+  font-weight: 400;
+  src: url("resources/assets/fonts/HPSimplified.html") format("woff");
+  unicode-range: U+0020-052F;
+}
+
+@font-face {
+  font-family: "HPSimplifiedLight123";
+  font-style: normal;
+  font-weight: 400;
+  src: url("resources/assets/fonts/HPSimplifiedLight.html") format("woff");
+  unicode-range: U+0020-052F;
+}
+
+@font-face {
+  font-family: "HPSimplified123";
+  font-style: normal;
+  font-weight: 400;
+  src: url("resources/assets/fonts/HPSimplifiedME_Rg.html") format("truetype");
+  unicode-range: U+0590-06FF;
+}
+
+@font-face {
+  font-family: "HPSimplifiedLight123";
+  font-style: normal;
+  font-weight: 400;
+  src: url("resources/assets/fonts/HPSimplifiedME_Lt.html") format("truetype");
+  unicode-range: U+0590-06FF;
+}
+
+@font-face {
+  font-family: "HPBold123";
+  font-style: normal;
+  font-weight: 700;
+  src: url("resources/assets/fonts/HPBold.html") format("truetype");
+  unicode-range: U+0020-052F;
+}

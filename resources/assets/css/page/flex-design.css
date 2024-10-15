@@ -1,0 +1,353 @@
+.align-center {
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+}
+
+.appstore-images {
+  height: 100px;
+}
+
+.appstore-images img {
+  border-radius: 5px;
+  flex-shrink: 0;
+  -webkit-margin-end: 3px;
+  margin-inline-end: 3px;
+  vertical-align: middle;
+}
+
+.appstore-images.vertical {
+  width: 118px;
+}
+
+.appstore-images.vertical img {
+  width: 100%;
+}
+
+.arrow-header .list-header-right > img {
+  transform: rotate(0);
+  transition: transform 0.25s linear;
+}
+
+.arrow-header.open .list-header-right > img {
+  transform: rotate(180deg);
+  transition: transform 0.25s linear;
+}
+
+.bordered-qr-code {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-margin-end: 1rem;
+  margin-inline-end: 1rem;
+  padding: 10px;
+  width: 100px;
+}
+
+.bordered-qr-code > img {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  height: initial;
+  height: unset;
+  min-height: 48px;
+}
+
+.centered {
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.collapsible-list > .collapsible-list-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.collapsible-list > .collapsible-list-item > .collapsible-list-content {
+  height: 0;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.collapsible-list > .collapsible-list-item > .collapsible-list-header {
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  font-size: 22px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 10px 0;
+  user-select: none;
+}
+
+.collapsible-list > .collapsible-list-item > .collapsible-list-header > .list-header-right {
+  padding-left: 15px;
+}
+
+.divider {
+  border: 0;
+  border-bottom: 1px solid rgb(2, 122, 174);
+  height: 0;
+  margin: 16px 0;
+}
+
+.divider.orange {
+  border-bottom: 1px solid rgb(231, 121, 37);
+}
+
+.divider.white {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.divider.grey {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.horizontal {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hpplus-bg {
+  background-image: url("resources/assets/img/top_bg_hpplus.html");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+.hpplus-bg-white {
+  background: rgb(250, 250, 250);
+}
+
+.ie-wrap-fix {
+  flex-basis: 100%;
+}
+
+main,
+.main {
+  font-family: "HPSimplifiedLight123", sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+.main-content {
+  -webkit-flex: 0 1 1100px;
+  -ms-flex: 0 1 1100px;
+  flex: 0 1 1100px;
+  min-width: 0%;
+  width: calc(100%);
+}
+
+main > div {
+  padding: 30px 0;
+  transition: 0.25s linear;
+}
+
+.page-header {
+  font-size: 58px;
+}
+
+.page-subheader {
+  font-size: 40px;
+  margin: 0;
+}
+
+.printer-container {
+  -webkit-align-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 20px;
+  width: 270px;
+}
+
+.printer-image {
+  min-height: 1px;
+  width: 100%;
+}
+
+.printer-title {
+  color: rgb(255, 255, 255);
+  font-family: "HPSimplified123", sans-serif;
+  font-size: 16px;
+  line-height: 1.16;
+  text-align: center;
+  width: 100%;
+}
+
+.shrink-off {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.side-images {
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -ms-flex-align: end;
+  overflow: hidden;
+  transition: width 0.25s linear;
+  width: 270px;
+}
+
+.space-around {
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.space-between {
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.standard-bg {
+  background-image: url("resources/assets/img/top_background_image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+.support-item > .support-content {
+  font-size: 20px;
+  margin: 0 70px;
+}
+
+.support-item > .support-content.support-note {
+  font-size: 22px;
+}
+
+.support-item > .support-header {
+  padding: 5px 0;
+}
+
+.support-item > .support-header > .support-header-icon {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  height: 40px;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-margin-end: 15px;
+  margin-inline-end: 15px;
+  width: 55px;
+}
+
+.support-header-note {
+  font-size: 26px;
+}
+
+.support-header-printer {
+  margin-top: 20px;
+}
+
+.troubleshoot,
+.video,
+.support-item > .support-header > .troubleshoot,
+.support-item > .support-header > .video {
+  height: 70px;
+}
+
+.support-item > .support-header > .support-header-icon > img {
+  height: 44px;
+}
+
+.support-item > .support-header > .troubleshoot > img {
+  height: 53px;
+}
+
+.support-item > .support-header > .video > img {
+  height: 30px;
+}
+
+.support-item > .support-header > .support-title {
+  color: rgb(2, 122, 174);
+  font-family: "HPSimplified123", sans-serif;
+  font-size: 30px;
+}
+
+.support-item > .support-header > .text-content {
+  line-height: 40px;
+}
+
+.text-content {
+  font-size: 20px;
+}
+
+.vertical {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1500px) {
+  main > div {
+    padding: 30px 8%;
+    transition: 0.25s linear;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .side-images:not(.always-visible) {
+    overflow: hidden;
+    transition: width 0.25s linear;
+    width: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .standard-bg {
+    margin-top: 0;
+  }
+
+  .wrap-sm {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .wrap-sm > :not(:first-child) {
+    margin-top: 1rem;
+  }
+}

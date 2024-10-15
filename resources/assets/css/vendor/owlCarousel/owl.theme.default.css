@@ -1,0 +1,106 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+
+.owl-theme .owl-nav {
+    height: 0;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    background: #d6d6d6;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #869791;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.owl-theme .owl-nav .disabled {
+    cursor: default;
+    opacity: 50%;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+}
+
+.owl-theme .owl-dots {
+    margin-bottom: 20px;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    -webkit-backface-visibility: visible;
+    background: #c4c4c4;
+    border-radius: 30px;
+    display: block;
+    height: 10px;
+    margin: 5px 10px;
+    transition: opacity 200ms ease;
+    width: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #027aae;
+    height: 14px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    width: 14px;
+}
+
+.carousel-wrap {
+    margin: auto;
+    position: relative;
+    width: 1000px;
+}
+
+.owl-carousel .item {
+    justify-content: center;
+    text-align: center;
+}
+
+.owl-carousel .nav-btn {
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    width: 20px;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    opacity: 20%;
+    pointer-events: none;
+}
+
+.owl-carousel .prev-slide {
+    left: 17px;
+}
+
+.owl-carousel .next-slide {
+    right: 17px;
+}

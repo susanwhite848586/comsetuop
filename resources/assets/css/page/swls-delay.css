@@ -1,0 +1,82 @@
+.swls-overlay-heading,
+.swls-redirect-detail,
+.swls-redirect-heading {
+  color: rgb(0, 0, 0);
+  font-family: "HPSimplified123", sans-serif;
+}
+
+.swls-overlay-content {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  display: none;
+  height: 450px;
+  overflow: hidden;
+  position: fixed;
+  top: 25%;
+  width: 800px;
+  z-index: 21;
+}
+
+.swls-overlay-heading {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 126px;
+  text-align: center;
+}
+
+.load-image {
+  margin: 60px;
+  text-align: center;
+}
+
+#swls-redirect-container {
+  padding: 50px 50px 0;
+}
+
+.swls-redirect-heading {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.swls-redirect-detail {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: 69px;
+  width: 680px;
+}
+
+.hp-support-link {
+  color: rgb(0, 125, 186);
+}
+
+.swlsRedDivider {
+  background: rgb(204, 204, 204);
+  height: 1px;
+  margin-bottom: 15px;
+  width: 687px;
+}
+
+.btn-redirect {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.redirect-footer {
+  bottom: 0;
+  padding-bottom: 30px;
+  position: absolute;
+}
+
+.btn-cancel {
+  background-color: rgb(118, 118, 118);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.divSupport {
+  float: right;
+}
+
+html[dir="rtl"] .divCancel {
+  float: left;
+}
